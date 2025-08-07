@@ -3,24 +3,33 @@ import os
 import glob
 import cv2
 import numpy as np
+import pandas as pd
 import tensorflow as tf
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.utils import to_categorical
+from tensorflow.keras.callbacks import EarlyStopping
+from tensorflow.keras.optimizers import Adam
 
 # ===================================================================
-# PILIH PARAMETER YANG INGIN DILATIH DI SINI
-# Ganti nilainya sesuai kebutuhan: 'Leukocytes', 'Nitrite', 'pH', 'Glucose', dll.
-# ===================================================================
-PARAMETER_TO_TRAIN = 'Bilirubin' 
+# --- KONFIGURASI PELATIHAN ---
+#
+# PILIH PARAMETER YANG INGIN DILATIH
+PARAMETER_TO_TRAIN = 'Glucose' 
+#
+# ATUR PENGGUNAAN FITUR:
+# True  = Menggunakan 60 fitur (Rata-rata + Standar Deviasi)
+# False = Hanya menggunakan 30 fitur (Rata-rata saja)
+USE_ADVANCED_FEATURES = True
 # ===================================================================
 
-# Fungsi image processing (sama seperti di labeling tool)
-def extract_color_features_from_image(image_bgr):
+# Fungsi image processing yang sekarang lebih fleksibel
+def extract_features(image_bgr, advanced=True):
     try:
         if image_bgr is None: return None
+        # ... (Kode pre-processing: grayscale, blur, canny, crop tetap sama) ...
         gray = cv2.cvtColor(image_bgr, cv2.COLOR_BGR2GRAY)
         blurred = cv2.GaussianBlur(gray, (5, 5), 0)
         edged = cv2.Canny(blurred, 20, 70)
@@ -45,91 +54,95 @@ def extract_color_features_from_image(image_bgr):
             endX = (i + 1) * panel_width
             roi = hsv_dipstick[int(height*0.2):int(height*0.8), startX:endX]
             if roi.size == 0: continue
-            avg_color = cv2.mean(roi)[:3] # Ambil H, S, V
-            color_features.extend(avg_color)
-        
-        return color_features if len(color_features) == 30 else None
+            
+            if advanced:
+                # Ambil rata-rata DAN standar deviasi
+                mean, std_dev = cv2.meanStdDev(roi)
+                features_per_panel = list(mean.flatten()) + list(std_dev.flatten())
+                color_features.extend(features_per_panel)
+            else:
+                # Ambil rata-rata SAJA
+                mean = cv2.mean(roi)
+                color_features.extend(mean[:3]) # Hanya H, S, V
+
+        # Pastikan jumlah fitur sesuai
+        expected_length = 60 if advanced else 30
+        return color_features if len(color_features) == expected_length else None
     except Exception:
         return None
 
-# 1. Muat Label dari File JSON
-label_file = 'labels.json'
-if not os.path.exists(label_file):
-    print(f"ERROR: File '{label_file}' tidak ditemukan. Jalankan labeling tool terlebih dahulu.")
-    exit()
+# --- BAGIAN UTAMA SCRIPT ---
 
+# 1. Muat Label
+label_file = 'labels.json'
 with open(label_file, 'r') as f:
     all_labels = json.load(f)
 
-# 2. Siapkan Data dan Label
+# 2. Siapkan Data
 print(f"Mempersiapkan data untuk parameter: '{PARAMETER_TO_TRAIN}'")
+print(f"Menggunakan Fitur Canggih: {USE_ADVANCED_FEATURES}")
+
 X_data = []
 y_labels_text = []
+dataset_path = "dataset_augmented/"
 
-dataset_path = "dataset/"
 for filename, labels in all_labels.items():
     img_path = os.path.join(dataset_path, filename)
     if os.path.exists(img_path):
         image = cv2.imread(img_path)
-        features = extract_color_features_from_image(image)
+        # Panggil fungsi dengan flag dari konfigurasi
+        features = extract_features(image, advanced=USE_ADVANCED_FEATURES)
         
-        # Pastikan gambar berhasil diproses dan label untuk parameter ada
         if features and PARAMETER_TO_TRAIN in labels:
             X_data.append(features)
             y_labels_text.append(labels[PARAMETER_TO_TRAIN])
 
 if not X_data:
-    print("ERROR: Tidak ada data yang berhasil disiapkan. Periksa nama parameter atau file gambar.")
+    print("ERROR: Tidak ada data yang berhasil disiapkan.")
     exit()
 
 print(f"Total data yang siap dilatih: {len(X_data)} sampel.")
+print("Distribusi Kelas Data:")
+print(pd.Series(y_labels_text).value_counts())
 
-# 3. Encoding Label
+# 3. Encoding & Pembagian Data
 le = LabelEncoder()
 y_data_encoded = le.fit_transform(y_labels_text)
 y_data_categorical = to_categorical(y_data_encoded)
 num_classes = len(le.classes_)
-print(f"Kelas yang ditemukan: {le.classes_} ({num_classes} kelas)")
-
-# 4. Bagi Data & Bangun Model
 X_data = np.array(X_data)
-# Bagi data menjadi 80% untuk latih dan 20% untuk uji
 X_train, X_test, y_train, y_test = train_test_split(
     X_data, y_data_categorical, test_size=0.20, random_state=42
 )
 
-print(f"Jumlah Data Latih (sebelum split validasi): {len(X_train)}")
-print(f"Jumlah Data Uji: {len(X_test)}")
-
-# Definisi Model (tetap sama)
+# 4. Bangun Model (input_shape sekarang dinamis)
+feature_count = 60 if USE_ADVANCED_FEATURES else 30
 model = Sequential([
-    Dense(128, activation='relu', input_shape=(X_train.shape[1],)),
-    Dropout(0.5),
-    Dense(64, activation='relu'),
-    Dropout(0.5),
+    Dense(256, activation='relu', input_shape=(feature_count,)),
+    Dropout(0.2),
+    Dense(128, activation='relu'),
+    Dropout(0.2),
     Dense(num_classes, activation='softmax')
 ])
 
-# Kompilasi Model (tetap sama)
-model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+optimizer = Adam(learning_rate=0.001) 
+model.compile(optimizer=optimizer, loss='categorical_crossentropy', metrics=['accuracy'])
 model.summary()
 
 # 5. Latih Model
-print("\nMemulai pelatihan model...")
-# Keras akan otomatis memisahkan 20% dari data latih untuk validasi
+early_stopping = EarlyStopping(monitor='val_loss', patience=20, restore_best_weights=True)
 history = model.fit(
     X_train, y_train,
-    epochs=100,
+    epochs=500,
     batch_size=16,
-    validation_split=0.20, # <-- PERUBAHAN DI SINI
-    verbose=2
+    validation_split=0.20,
+    verbose=2,
+    callbacks=[early_stopping]
 )
 
-# 6. Evaluasi dan Simpan Model
-print("\nEvaluasi menggunakan data uji yang terpisah...")
+# 6. Evaluasi dan Simpan
 loss, accuracy = model.evaluate(X_test, y_test, verbose=0)
 print(f"\nAkurasi pada DATA UJI AKHIR: {accuracy * 100:.2f}%")
-
 output_model_filename = f'model_{PARAMETER_TO_TRAIN}.h5'
 model.save(output_model_filename)
 print(f"Model telah disimpan sebagai '{output_model_filename}'")
