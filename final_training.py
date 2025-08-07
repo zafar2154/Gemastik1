@@ -93,10 +93,15 @@ print(f"Kelas yang ditemukan: {le.classes_} ({num_classes} kelas)")
 
 # 4. Bagi Data & Bangun Model
 X_data = np.array(X_data)
+# Bagi data menjadi 80% untuk latih dan 20% untuk uji
 X_train, X_test, y_train, y_test = train_test_split(
-    X_data, y_data_categorical, test_size=0.2, random_state=42
+    X_data, y_data_categorical, test_size=0.20, random_state=42
 )
 
+print(f"Jumlah Data Latih (sebelum split validasi): {len(X_train)}")
+print(f"Jumlah Data Uji: {len(X_test)}")
+
+# Definisi Model (tetap sama)
 model = Sequential([
     Dense(128, activation='relu', input_shape=(X_train.shape[1],)),
     Dropout(0.5),
@@ -105,22 +110,25 @@ model = Sequential([
     Dense(num_classes, activation='softmax')
 ])
 
+# Kompilasi Model (tetap sama)
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 model.summary()
 
 # 5. Latih Model
 print("\nMemulai pelatihan model...")
+# Keras akan otomatis memisahkan 20% dari data latih untuk validasi
 history = model.fit(
     X_train, y_train,
-    epochs=100, # Tambah epoch untuk pelatihan yang lebih baik
+    epochs=100,
     batch_size=16,
-    validation_data=(X_test, y_test),
+    validation_split=0.20, # <-- PERUBAHAN DI SINI
     verbose=2
 )
 
 # 6. Evaluasi dan Simpan Model
+print("\nEvaluasi menggunakan data uji yang terpisah...")
 loss, accuracy = model.evaluate(X_test, y_test, verbose=0)
-print(f"\nAkurasi pada data uji: {accuracy * 100:.2f}%")
+print(f"\nAkurasi pada DATA UJI AKHIR: {accuracy * 100:.2f}%")
 
 output_model_filename = f'model_{PARAMETER_TO_TRAIN}.h5'
 model.save(output_model_filename)
