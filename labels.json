@@ -371,13 +371,122 @@
         "Bilirubin": "Small",
         "Glucose": "Neg."
     },
+<<<<<<< HEAD
+    "Foto (146).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Neg.",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Trace",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (147).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Neg.",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Neg.",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (148).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Neg.",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Neg.",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (149).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Neg.",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.025",
+        "Ketone": "Neg.",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (150).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Neg.",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.025",
+        "Ketone": "Moderate",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (151).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Neg.",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.025",
+        "Ketone": "Small",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (152).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Neg.",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.015",
+        "Ketone": "Trace",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (153).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Neg.",
+        "pH": "6.5",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.015",
+        "Ketone": "Small",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (154).jpg": {
+=======
     "Foto (32).jpg": {
+>>>>>>> 31159be982c2d74dca18d44362af9f3e6391663c
         "Leukocytes": "Trace",
         "Nitrite": "Neg.",
         "Urobilinogen": "Normal",
         "Protein": "Neg.",
         "pH": "6.5",
         "Blood": "Neg.",
+<<<<<<< HEAD
+        "Specific Gravity": "1.015",
+        "Ketone": "Trace",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (155).jpg": {
+        "Leukocytes": "Trace",
+=======
         "Specific Gravity": "1.005",
         "Ketone": "Neg.",
         "Bilirubin": "Neg.",
@@ -385,11 +494,579 @@
     },
     "Foto (33).jpg": {
         "Leukocytes": "Neg.",
+>>>>>>> 31159be982c2d74dca18d44362af9f3e6391663c
         "Nitrite": "Neg.",
         "Urobilinogen": "Normal",
         "Protein": "Neg.",
         "pH": "6.5",
         "Blood": "Neg.",
+<<<<<<< HEAD
+        "Specific Gravity": "1.025",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (162).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Trace",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (163).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Trace",
+        "pH": "6.0",
+        "Blood": "Hemolyzed",
+        "Specific Gravity": "1.030",
+        "Ketone": "Trace",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (164).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Trace",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Trace",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (165).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Trace",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Trace",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (166).jpg": {
+        "Leukocytes": "Moderate",
+        "Nitrite": "Positive",
+        "Urobilinogen": "Normal",
+        "Protein": "+",
+        "pH": "6.5",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.010",
+        "Ketone": "Trace",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (173).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "+",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (174).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "+",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.005",
+        "Ketone": "Trace",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (175).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "+",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (176).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "+",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (177).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "Normal",
+        "Protein": "Neg.",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.015",
+        "Ketone": "Small",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (184).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Neg.",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.010",
+        "Ketone": "Small",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (185).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Neg.",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.010",
+        "Ketone": "Small",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (186).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "Normal",
+        "Protein": "Neg.",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.010",
+        "Ketone": "Small",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (187).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "Normal",
+        "Protein": "Neg.",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.010",
+        "Ketone": "Small",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (188).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "++",
+        "pH": "6.5",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (195).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "+",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (196).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "+",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (197).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "+",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (198).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "+",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (199).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "+",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (206).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "Normal",
+        "Protein": "Neg.",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.015",
+        "Ketone": "Small",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (207).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "Normal",
+        "Protein": "Neg.",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.015",
+        "Ketone": "Small",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (208).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "Normal",
+        "Protein": "Neg.",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.015",
+        "Ketone": "Small",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (209).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "Normal",
+        "Protein": "Neg.",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.015",
+        "Ketone": "Small",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (210).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "Normal",
+        "Protein": "Neg.",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.015",
+        "Ketone": "Small",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (211).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "Normal",
+        "Protein": "Neg.",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.025",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (212).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Neg.",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.025",
+        "Ketone": "Trace",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (213).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Neg.",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.025",
+        "Ketone": "Trace",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (214).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Neg.",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.025",
+        "Ketone": "Trace",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (215).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Neg.",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.025",
+        "Ketone": "Trace",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (216).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "Normal",
+        "Protein": "Neg.",
+        "pH": "6.5",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.010",
+        "Ketone": "Trace",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (217).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "32",
+        "Protein": "Neg.",
+        "pH": "6.5",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.010",
+        "Ketone": "Trace",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (218).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "+",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Trace",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (219).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "+",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (220).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "32",
+        "Protein": "+",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (221).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "+",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (222).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "+",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (223).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "+",
+        "pH": "6.5",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Small",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (224).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "Normal",
+        "Protein": "Neg.",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.015",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (225).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Neg.",
+        "pH": "6.5",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.015",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (226).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Neg.",
+        "pH": "6.5",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.015",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (227).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Neg.",
+        "pH": "6.5",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.015",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (228).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Neg.",
+        "pH": "6.5",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.015",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (229).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "+",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.020",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (230).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "Normal",
+        "Protein": "+",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.020",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (231).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "+",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.020",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (232).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "+",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.020",
+=======
         "Specific Gravity": "1.005",
         "Ketone": "Neg.",
         "Bilirubin": "Neg.",
@@ -475,10 +1152,14 @@
         "pH": "6.0",
         "Blood": "Neg.",
         "Specific Gravity": "1.025",
+>>>>>>> 31159be982c2d74dca18d44362af9f3e6391663c
         "Ketone": "Trace",
         "Bilirubin": "Small",
         "Glucose": "Neg."
     },
+<<<<<<< HEAD
+    "Foto (233).jpg": {
+=======
     "Foto (40).jpg": {
         "Leukocytes": "Small",
         "Nitrite": "Neg.",
@@ -552,12 +1233,16 @@
         "Glucose": "Neg."
     },
     "Foto (46).jpg": {
+>>>>>>> 31159be982c2d74dca18d44362af9f3e6391663c
         "Leukocytes": "Trace",
         "Nitrite": "Neg.",
         "Urobilinogen": "16",
         "Protein": "Trace",
         "pH": "6.5",
         "Blood": "Neg.",
+<<<<<<< HEAD
+        "Specific Gravity": "1.015",
+=======
         "Specific Gravity": "1.025",
         "Ketone": "Trace",
         "Bilirubin": "Small",
@@ -571,22 +1256,42 @@
         "pH": "6.5",
         "Blood": "Neg.",
         "Specific Gravity": "1.025",
+>>>>>>> 31159be982c2d74dca18d44362af9f3e6391663c
         "Ketone": "Trace",
         "Bilirubin": "Neg.",
         "Glucose": "Neg."
     },
+<<<<<<< HEAD
+    "Foto (234).jpg": {
+        "Leukocytes": "Trace",
+=======
     "Foto (48).jpg": {
         "Leukocytes": "Small",
+>>>>>>> 31159be982c2d74dca18d44362af9f3e6391663c
         "Nitrite": "Neg.",
         "Urobilinogen": "16",
         "Protein": "Trace",
         "pH": "6.5",
         "Blood": "Neg.",
+<<<<<<< HEAD
+        "Specific Gravity": "1.015",
+=======
         "Specific Gravity": "1.025",
+>>>>>>> 31159be982c2d74dca18d44362af9f3e6391663c
         "Ketone": "Trace",
         "Bilirubin": "Small",
         "Glucose": "Neg."
     },
+<<<<<<< HEAD
+    "Foto (235).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Trace",
+        "pH": "6.5",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.015",
+=======
     "Foto (49).jpg": {
         "Leukocytes": "Trace",
         "Nitrite": "Neg.",
@@ -595,10 +1300,21 @@
         "pH": "6.5",
         "Blood": "Neg.",
         "Specific Gravity": "1.030",
+>>>>>>> 31159be982c2d74dca18d44362af9f3e6391663c
         "Ketone": "Trace",
         "Bilirubin": "Small",
         "Glucose": "Neg."
     },
+<<<<<<< HEAD
+    "Foto (236).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Trace",
+        "pH": "6.5",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.015",
+=======
     "Foto (5).jpg": {
         "Leukocytes": "Small",
         "Nitrite": "Neg.",
@@ -607,10 +1323,21 @@
         "pH": "6.0",
         "Blood": "Neg.",
         "Specific Gravity": "1.025",
+>>>>>>> 31159be982c2d74dca18d44362af9f3e6391663c
         "Ketone": "Trace",
         "Bilirubin": "Small",
         "Glucose": "Neg."
     },
+<<<<<<< HEAD
+    "Foto (237).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "+",
+        "pH": "6.5",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.015",
+=======
     "Foto (50).jpg": {
         "Leukocytes": "Trace",
         "Nitrite": "Neg.",
@@ -619,10 +1346,14 @@
         "pH": "6.5",
         "Blood": "Neg.",
         "Specific Gravity": "1.030",
+>>>>>>> 31159be982c2d74dca18d44362af9f3e6391663c
         "Ketone": "Trace",
         "Bilirubin": "Small",
         "Glucose": "Neg."
     },
+<<<<<<< HEAD
+    "Foto (238).jpg": {
+=======
     "Foto (51).jpg": {
         "Leukocytes": "Trace",
         "Nitrite": "Neg.",
@@ -660,24 +1391,49 @@
         "Glucose": "Neg."
     },
     "Foto (54).jpg": {
+>>>>>>> 31159be982c2d74dca18d44362af9f3e6391663c
         "Leukocytes": "Trace",
         "Nitrite": "Neg.",
         "Urobilinogen": "Normal",
         "Protein": "Neg.",
         "pH": "6.5",
         "Blood": "Neg.",
+<<<<<<< HEAD
+        "Specific Gravity": "1.010",
+        "Ketone": "Trace",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (239).jpg": {
+=======
         "Specific Gravity": "1.015",
         "Ketone": "Neg.",
         "Bilirubin": "Neg.",
         "Glucose": "Neg."
     },
     "Foto (55).jpg": {
+>>>>>>> 31159be982c2d74dca18d44362af9f3e6391663c
         "Leukocytes": "Trace",
         "Nitrite": "Neg.",
         "Urobilinogen": "16",
         "Protein": "Neg.",
         "pH": "6.5",
         "Blood": "Neg.",
+<<<<<<< HEAD
+        "Specific Gravity": "1.010",
+        "Ketone": "Trace",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (240).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Neg.",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.010",
+=======
         "Specific Gravity": "1.015",
         "Ketone": "Neg.",
         "Bilirubin": "Neg.",
@@ -751,10 +1507,290 @@
         "pH": "6.5",
         "Blood": "Neg.",
         "Specific Gravity": "1.025",
+>>>>>>> 31159be982c2d74dca18d44362af9f3e6391663c
         "Ketone": "Trace",
         "Bilirubin": "Neg.",
         "Glucose": "Neg."
     },
+<<<<<<< HEAD
+    "Foto (241).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Neg.",
+        "pH": "6.5",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.010",
+        "Ketone": "Trace",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (242).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "Normal",
+        "Protein": "Trace",
+        "pH": "5.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.010",
+        "Ketone": "Trace",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (243).jpg": {
+        "Leukocytes": "Small",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "Normal",
+        "Protein": "+",
+        "pH": "6.5",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Moderate",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (244).jpg": {
+        "Leukocytes": "Small",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "Normal",
+        "Protein": "+",
+        "pH": "6.5",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Moderate",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (245).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "+",
+        "pH": "6.5",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Small",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (246).jpg": {
+        "Leukocytes": "Small",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "+",
+        "pH": "6.5",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Moderate",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (247).jpg": {
+        "Leukocytes": "Small",
+        "Nitrite": "Positive",
+        "Urobilinogen": "32",
+        "Protein": "Trace",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Moderate",
+        "Bilirubin": "Neg.",
+        "Glucose": "Neg."
+    },
+    "Foto (248).jpg": {
+        "Leukocytes": "Small",
+        "Nitrite": "Positive",
+        "Urobilinogen": "16",
+        "Protein": "Trace",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Moderate",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (249).jpg": {
+        "Leukocytes": "Small",
+        "Nitrite": "Positive",
+        "Urobilinogen": "Normal",
+        "Protein": "Trace",
+        "pH": "6.5",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (250).jpg": {
+        "Leukocytes": "Small",
+        "Nitrite": "Positive",
+        "Urobilinogen": "Normal",
+        "Protein": "Trace",
+        "pH": "6.5",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (251).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "Normal",
+        "Protein": "Trace",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (252).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "Normal",
+        "Protein": "Trace",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (253).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Trace",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (254).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Trace",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (255).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Trace",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (256).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Neg.",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.005",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (257).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Neg.",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.005",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (258).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Neg.",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.005",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (259).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Neg.",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.005",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (260).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Neg.",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.010",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (261).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "Normal",
+        "Protein": "Trace",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (262).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "Normal",
+        "Protein": "Trace",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (263).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Trace",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (264).jpg": {
+=======
     "Foto (61).jpg": {
         "Leukocytes": "Trace",
         "Nitrite": "Neg.",
@@ -936,10 +1972,149 @@
         "Glucose": "Neg."
     },
     "Foto (75).jpg": {
+>>>>>>> 31159be982c2d74dca18d44362af9f3e6391663c
         "Leukocytes": "Trace",
         "Nitrite": "Neg.",
         "Urobilinogen": "Normal",
         "Protein": "Neg.",
+<<<<<<< HEAD
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.025",
+        "Ketone": "Small",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (265).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Trace",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.025",
+        "Ketone": "Small",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (266).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Trace",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.025",
+        "Ketone": "Small",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (267).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Trace",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.025",
+        "Ketone": "Small",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (268).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "Trace",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.025",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (269).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "Normal",
+        "Protein": "+",
+        "pH": "6.5",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.025",
+        "Ketone": "Moderate",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (270).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "Normal",
+        "Protein": "+",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.025",
+        "Ketone": "Moderate",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (271).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "Normal",
+        "Protein": "+",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.025",
+        "Ketone": "Moderate",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (272).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "Normal",
+        "Protein": "+",
+        "pH": "6.5",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.025",
+        "Ketone": "Trace",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (273).jpg": {
+        "Leukocytes": "Trace",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "Normal",
+        "Protein": "+",
+        "pH": "6.5",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.025",
+        "Ketone": "Moderate",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (274).jpg": {
+        "Leukocytes": "Small",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "+",
+        "pH": "6.0",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Moderate",
+        "Bilirubin": "Small",
+        "Glucose": "Neg."
+    },
+    "Foto (275).jpg": {
+        "Leukocytes": "Large",
+        "Nitrite": "Neg.",
+        "Urobilinogen": "16",
+        "Protein": "+",
+        "pH": "6.5",
+        "Blood": "Neg.",
+        "Specific Gravity": "1.030",
+        "Ketone": "Moderate",
+=======
         "pH": "6.5",
         "Blood": "Neg.",
         "Specific Gravity": "1.005",
@@ -1256,6 +2431,7 @@
         "Blood": "Neg.",
         "Specific Gravity": "1.030",
         "Ketone": "Trace",
+>>>>>>> 31159be982c2d74dca18d44362af9f3e6391663c
         "Bilirubin": "Small",
         "Glucose": "Neg."
     }
