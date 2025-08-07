@@ -17,7 +17,7 @@ from tensorflow.keras.optimizers import Adam
 # --- KONFIGURASI PELATIHAN ---
 #
 # PILIH PARAMETER YANG INGIN DILATIH
-PARAMETER_TO_TRAIN = 'Glucose' 
+PARAMETER_TO_TRAIN = 'Bilirubin' 
 #
 # ATUR PENGGUNAAN FITUR:
 # True  = Menggunakan 60 fitur (Rata-rata + Standar Deviasi)
@@ -74,7 +74,7 @@ def extract_features(image_bgr, advanced=True):
 # --- BAGIAN UTAMA SCRIPT ---
 
 # 1. Muat Label
-label_file = 'labels.json'
+label_file = 'labels_merged.json'
 with open(label_file, 'r') as f:
     all_labels = json.load(f)
 
