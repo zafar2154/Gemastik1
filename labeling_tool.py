@@ -76,7 +76,7 @@ def start_super_labeling_tool():
             reference_colors[param].append({'label': label_name, 'color': avg_color})
 
     # Siapkan dataset dan file output
-    dataset_path = "C:/Users/Rifqi/Downloads/Train_urin/dataset_augmented/"
+    dataset_path = "D:\Gemastik1\dataset_augmented"
     image_files = glob.glob(os.path.join(dataset_path, 'Foto*.jpg'))
     if not image_files:
         print(f"ERROR: Tidak ada gambar 'Foto*.jpg' ditemukan di folder '{dataset_path}'.")
