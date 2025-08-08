@@ -126,7 +126,7 @@ def run_analysis_laptop(image_path):
 if __name__ == "__main__":
     # Ganti dengan path ke gambar yang ingin Anda uji di laptop
     # Pastikan gambar ini ada di folder yang benar
-    test_image_path = 'fototest1.jpg' 
+    test_image_path = 'fototest.jpg' 
 
     if models:
         results = run_analysis_laptop(test_image_path)

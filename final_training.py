@@ -15,21 +15,14 @@ from tensorflow.keras.optimizers import Adam
 
 # ===================================================================
 # --- KONFIGURASI PELATIHAN ---
-#
 # PILIH PARAMETER YANG INGIN DILATIH
-PARAMETER_TO_TRAIN = 'Ketone' 
-#
-# ATUR PENGGUNAAN FITUR:
-# True  = Menggunakan 60 fitur (Rata-rata + Standar Deviasi)
-# False = Hanya menggunakan 30 fitur (Rata-rata saja)
-USE_ADVANCED_FEATURES = True
+PARAMETER_TO_TRAIN = 'Glucose' 
 # ===================================================================
 
-# Fungsi image processing yang sekarang lebih fleksibel
-def extract_features(image_bgr, advanced=True):
+# Fungsi image processing yang sekarang hanya menghasilkan 30 fitur
+def extract_features(image_bgr):
     try:
         if image_bgr is None: return None
-        # ... (Kode pre-processing: grayscale, blur, canny, crop tetap sama) ...
         gray = cv2.cvtColor(image_bgr, cv2.COLOR_BGR2GRAY)
         blurred = cv2.GaussianBlur(gray, (5, 5), 0)
         edged = cv2.Canny(blurred, 20, 70)
@@ -55,33 +48,25 @@ def extract_features(image_bgr, advanced=True):
             roi = hsv_dipstick[int(height*0.2):int(height*0.8), startX:endX]
             if roi.size == 0: continue
             
-            if advanced:
-                # Ambil rata-rata DAN standar deviasi
-                mean, std_dev = cv2.meanStdDev(roi)
-                features_per_panel = list(mean.flatten()) + list(std_dev.flatten())
-                color_features.extend(features_per_panel)
-            else:
-                # Ambil rata-rata SAJA
-                mean = cv2.mean(roi)
-                color_features.extend(mean[:3]) # Hanya H, S, V
+            # Hanya ambil rata-rata warna (H, S, V)
+            mean = cv2.mean(roi)
+            color_features.extend(mean[:3]) 
 
-        # Pastikan jumlah fitur sesuai
-        expected_length = 60 if advanced else 30
-        return color_features if len(color_features) == expected_length else None
+        # Pastikan jumlah fitur adalah 30
+        return color_features if len(color_features) == 30 else None
     except Exception:
         return None
 
 # --- BAGIAN UTAMA SCRIPT ---
 
 # 1. Muat Label
-label_file = 'labels.json'
+# Ganti nama file ini jika Anda menggunakan label yang sudah digabung
+label_file = 'labels.json' 
 with open(label_file, 'r') as f:
     all_labels = json.load(f)
 
 # 2. Siapkan Data
 print(f"Mempersiapkan data untuk parameter: '{PARAMETER_TO_TRAIN}'")
-print(f"Menggunakan Fitur Canggih: {USE_ADVANCED_FEATURES}")
-
 X_data = []
 y_labels_text = []
 dataset_path = "dataset_augmented/"
@@ -90,8 +75,7 @@ for filename, labels in all_labels.items():
     img_path = os.path.join(dataset_path, filename)
     if os.path.exists(img_path):
         image = cv2.imread(img_path)
-        # Panggil fungsi dengan flag dari konfigurasi
-        features = extract_features(image, advanced=USE_ADVANCED_FEATURES)
+        features = extract_features(image) # Tidak perlu flag lagi
         
         if features and PARAMETER_TO_TRAIN in labels:
             X_data.append(features)
@@ -115,13 +99,12 @@ X_train, X_test, y_train, y_test = train_test_split(
     X_data, y_data_categorical, test_size=0.20, random_state=42
 )
 
-# 4. Bangun Model (input_shape sekarang dinamis)
-feature_count = 60 if USE_ADVANCED_FEATURES else 30
+# 4. Bangun Model (input_shape sekarang tetap 30)
 model = Sequential([
-    Dense(256, activation='relu', input_shape=(feature_count,)),
-    Dropout(0.2),
-    Dense(128, activation='relu'),
-    Dropout(0.2),
+    Dense(128, activation='relu', input_shape=(30,)),
+    Dropout(0.3),
+    Dense(64, activation='relu'),
+    Dropout(0.3),
     Dense(num_classes, activation='softmax')
 ])
 
