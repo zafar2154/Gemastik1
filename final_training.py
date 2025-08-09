@@ -16,7 +16,7 @@ from tensorflow.keras.optimizers import Adam
 # ===================================================================
 # --- KONFIGURASI PELATIHAN ---
 # PILIH PARAMETER YANG INGIN DILATIH
-PARAMETER_TO_TRAIN = 'Specific Gravity' 
+PARAMETER_TO_TRAIN = 'Glucose' 
 # ===================================================================
 
 # Fungsi image processing yang sekarang hanya menghasilkan 30 fitur
