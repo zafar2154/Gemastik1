@@ -12,7 +12,7 @@ MODEL_FILES = {
     'Protein': 'model_Protein.h5',
     'pH': 'model_pH.h5',
     'Blood': 'model_Blood.h5',
-    'Specific Gravity': 'model_Specific Gravity.h5',
+    'Specific Gravity': 'model_Specific_Gravity.h5',
     'Ketone': 'model_Ketone.h5',
     'Bilirubin': 'model_Bilirubin.h5',
     'Glucose': 'model_Glucose.h5'
@@ -98,7 +98,7 @@ def run_analysis_laptop(image_path):
 
     # 2. Ekstrak fitur dari gambar
     # Atur 'advanced' sesuai dengan cara Anda melatih model tersebut
-    features = extract_features(image, advanced=True) # Ganti ke True jika Anda melatih dengan 60 fitur
+    features = extract_features(image, advanced=False) # Ganti ke True jika Anda melatih dengan 60 fitur
     
     if features is None:
         print("Tidak dapat mengekstrak fitur dari gambar.")
@@ -126,7 +126,7 @@ def run_analysis_laptop(image_path):
 if __name__ == "__main__":
     # Ganti dengan path ke gambar yang ingin Anda uji di laptop
     # Pastikan gambar ini ada di folder yang benar
-    test_image_path = 'fototest.jpg' 
+    test_image_path = 'fototest2.jpg' 
 
     if models:
         results = run_analysis_laptop(test_image_path)
