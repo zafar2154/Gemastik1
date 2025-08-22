@@ -3,7 +3,7 @@ import os
 import glob
 
 # Dapatkan semua nama file .h5 di folder saat ini
-h5_files = glob.glob('*.h5')
+h5_files = glob.glob('*.keras')
 
 if not h5_files:
     print("Tidak ada file .h5 yang ditemukan di folder ini.")

@@ -16,7 +16,7 @@ from tensorflow.keras.optimizers import Adam
 # ===================================================================
 # --- KONFIGURASI PELATIHAN ---
 # PILIH PARAMETER YANG INGIN DILATIH
-PARAMETER_TO_TRAIN = 'Glucose' 
+PARAMETER_TO_TRAIN = 'Bilirubin' 
 # ===================================================================
 
 # Fungsi image processing yang sekarang hanya menghasilkan 30 fitur
@@ -126,6 +126,6 @@ history = model.fit(
 # 6. Evaluasi dan Simpan
 loss, accuracy = model.evaluate(X_test, y_test, verbose=0)
 print(f"\nAkurasi pada DATA UJI AKHIR: {accuracy * 100:.2f}%")
-output_model_filename = f'model_{PARAMETER_TO_TRAIN}.h5'
+output_model_filename = f'model_{PARAMETER_TO_TRAIN}.keras'
 model.save(output_model_filename)
 print(f"Model telah disimpan sebagai '{output_model_filename}'")
